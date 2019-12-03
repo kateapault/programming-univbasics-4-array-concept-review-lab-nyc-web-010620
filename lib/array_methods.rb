@@ -21,7 +21,7 @@ end
 
 def find_min_value(array)
   len = array.length
-  min_num = 0
+  min_num = 1000
   len.times do |i|
     if array[i] < min_num
       min_num = array[i]
